@@ -6,7 +6,6 @@
 ![txt2img](txt2img_Screenshot.png)
 ![img2img](txt2img_Screenshot.png)
 
-- Гляньте [полный список функций](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features), доступных через решения Stable Diffusion.
 - Поддержка [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion)
 
 ## Установка и запуск
@@ -18,9 +17,9 @@
 ### Автоматическая установка в Windows
 1. Установите [Python 3.10.6](https://www.python.org/downloads/windows/), отметив «Добавить Python в PATH».
 2. Установите [git](https://git-scm.com/download/win).
-3. Загрузите репозиторий stable-diffusion-webui, например, запустив `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`.
-4. Поместите `model.ckpt` в каталог `models` (см. [зависимости](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies), чтобы узнать, где его взять).
-5. _*(Необязательно)*_ Поместите `GFPGANv1.4.pth` в базовый каталог вместе с `webui.py` (см. [зависимости](https://github.com/AUTOMATIC1111/stable-diffusion-webui/ wiki/Зависимости) для того, чтобы узнать, где его взять).
+3. Загрузите репозиторий project-1-stable-diff-gradioui, например, запустив `git clone https://github.com/ayranamo/project-1-stable-diff-gradioui.git`.
+4. Поместите `model.ckpt` в каталог `models` (см. [зависимости](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original, https://drive.yerf.org/wl/?id=EBfTrmcCCUAGaQBXVIj5lJmEhjoP1tgl), чтобы узнать, где его взять).
+5. _*(Необязательно)*_ Поместите `GFPGANv1.4.pth` в базовый каталог вместе с `webui.py` (Модели ESRGAN, такие как модели из базы данных моделей , могут быть помещены в каталог ESRGAN. Файл будет загружен как модель, если у него есть .pth расширение, и он будет отображаться под своим именем в пользовательском интерфейсе).
 6. Запустите `webui-user.bat` из проводника Windows как обычный пользователь без прав администратора.
 
 ### Автоматическая установка в Linux
@@ -33,17 +32,18 @@ sudo dnf install wget git python3
 # Arch-based:
 sudo pacman -S wget git python3
 ```
-2. Чтобы установить в `/home/$(whoami)/stable-diffusion-webui/`, запустите:
+2. Чтобы установить в `/home/$(whoami)/project-1-stable-diff-gradioui/`, запустите:
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/ayranamo/project-1-stable-diff-gradioui/master/webui.sh)
 ```
 
 ### Установка на Apple Silicon
-Найдите инструкции [здесь](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon).
-
-
-## Пользовательские сценарии
-Проверье наличие новых [пользовательских сценариев](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts).
+1. Если Homebrew не установлен, следуйте инструкциям на странице https://brew.sh, чтобы установить его. Держите окно терминала открытым и следуйте инструкциям в разделе «Следующие шаги», чтобы добавить Homebrew в PATH.
+2. Откройте новое окно терминала и запустите `brew install cmake protobuf rust python@3.10 git wget`.
+3. Клонируйте репозиторий веб-интерфейса, запустив git clone `git clone https://github.com/ayranamo/project-1-stable-diff-gradioui.git`.
+4. Скопируйте любые модели Stable Diffusion, которые вы хотите использовать, в файл project-1-stable-diff-gradioui/models/Stable-diffusion.
+5. cd `project-1-stable-diff-gradioui`, а затем `./webui.sh` для запуска веб-интерфейса. Виртуальная среда Python будет создана и активирована с помощью venv, а все оставшиеся недостающие зависимости будут автоматически загружены и установлены.
+6. Чтобы перезапустить процесс веб-интерфейса позже, снова запустите `./webui.sh`.
 
 
 ## Благодарности
