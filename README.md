@@ -9,7 +9,7 @@
 - Поддержка [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion)
 
 ## Установка и запуск
-Убедитесь, что необходимые [зависимости](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) соблюдены, и следуйте инструкциям, доступным для обоих [NVidia] (https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPU) (рекомендуется) и [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and -Run-on-AMD-GPUs) графические процессоры.
+Убедитесь, что необходимые [зависимости](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) соблюдены, и следуйте инструкциям, доступным для обоих [NVidia] (https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPU) (рекомендуется) и [AMD](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs) графические процессоры.
 
 В качестве альтернативы используйте онлайн-сервисы (например, Google Colab):
 - [Список онлайн-сервисов](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services)
