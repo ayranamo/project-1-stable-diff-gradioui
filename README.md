@@ -3,8 +3,8 @@
 
 ## Сценарии txt2img и img2img:
 
-![txt2img](https://github.com/ayranamo/project-1-stable-diff-gradioui/txt2img_Screenshot.png)
-![img2img](https://github.com/ayranamo/project-1-stable-diff-gradioui/txt2img_Screenshot.png)
+![txt2img](https://github.com/ayranamo/project-1-stable-diff-gradioui/blob/main/txt2img.png)
+![img2img](https://github.com/ayranamo/project-1-stable-diff-gradioui/blob/main/img2img.png)
 
 - Поддержка [Stable Diffusion 2.0](https://github.com/Stability-AI/stablediffusion)
 
