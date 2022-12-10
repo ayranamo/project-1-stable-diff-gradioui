@@ -5,7 +5,7 @@
 
 ![txt2img](https://github.com/ayranamo/project-1-stable-diff-gradioui/blob/main/txt2img.png)
 
-## Сценарий txt2img:
+## Сценарий img2img:
 ![img2img](https://github.com/ayranamo/project-1-stable-diff-gradioui/blob/main/img2img.png)
 
 ## Установка и запуск
