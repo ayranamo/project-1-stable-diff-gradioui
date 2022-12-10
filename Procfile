@@ -1,1 +1,1 @@
-setup.sh && webui.sh
+setup.sh
