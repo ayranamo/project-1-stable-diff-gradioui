@@ -1,5 +1,5 @@
 # Web UI со Stable Diffusion с использованием Gradio
-Проект для курса по организации процессов с DS и ML на Stepik.org. Интерфейс браузера на основе библиотеки Gradio для Stable Diffusion. Опирается на решение от [пользователя](https://github.com/AUTOMATIC1111/). 
+Проект для курса по организации процессов с DS и ML на Stepik.org. Интерфейс браузера на основе библиотеки интерфейсов [Gradio](https://gradio.app/docs/) для Stable Diffusion. Опирается на решение от [пользователя](https://github.com/AUTOMATIC1111/). 
 
 ## Сценарии txt2img и img2img:
 
