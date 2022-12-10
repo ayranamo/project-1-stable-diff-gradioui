@@ -43,7 +43,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusio
 
 
 ## Пользовательские сценарии
-Проверье наличие новых[пользовательских сценариев](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts).
+Проверье наличие новых [пользовательских сценариев](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts).
 
 
 ## Благодарности
