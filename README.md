@@ -18,7 +18,7 @@
 1. Установите [Python 3.10.6](https://www.python.org/downloads/windows/), отметив «Добавить Python в PATH».
 2. Установите [git](https://git-scm.com/download/win).
 3. Загрузите репозиторий project-1-stable-diff-gradioui, например, запустив `git clone https://github.com/ayranamo/project-1-stable-diff-gradioui.git`.
-4. Поместите `model.ckpt` в каталог `models` (см. [зависимости](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original, https://drive.yerf.org/wl/?id=EBfTrmcCCUAGaQBXVIj5lJmEhjoP1tgl), чтобы узнать, где его взять).
+4. Поместите `model.ckpt` в каталог `models` (см. [официальная загрузка](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original),[файловое хранилище](https://drive.yerf.org/wl/?id=EBfTrmcCCUAGaQBXVIj5lJmEhjoP1tgl)).
 5. _*(Необязательно)*_ Поместите `GFPGANv1.4.pth` в базовый каталог вместе с `webui.py` (Модели ESRGAN, такие как модели из базы данных моделей , могут быть помещены в каталог ESRGAN. Файл будет загружен как модель, если у него есть .pth расширение, и он будет отображаться под своим именем в пользовательском интерфейсе).
 6. Запустите `webui-user.bat` из проводника Windows как обычный пользователь без прав администратора.
 
